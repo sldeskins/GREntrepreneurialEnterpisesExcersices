@@ -23,6 +23,7 @@ namespace WpfApplication1
         public MainWindow()
         {
             InitializeComponent();
+            textBox.Text = "";
         }
 
         private void textBox_TextChanged(object sender, TextChangedEventArgs e)
@@ -33,6 +34,35 @@ namespace WpfApplication1
         private void button_Click(object sender, RoutedEventArgs e)
         {
             textBox.Text = textBox.Text + "7";
+
+        }
+
+        private void button_Copy3_Click(object sender, RoutedEventArgs e)
+        {
+            textBox.Text = textBox.Text + "5";
+        }
+
+        private void button_Copy4_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void button_Copy6_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void button_Copy_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void button_Copy1_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void button_Copy2_Click(object sender, RoutedEventArgs e)
+        {
 
         }
     }
